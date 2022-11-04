@@ -20,7 +20,6 @@ function addTask() {
             e.target.classList.toggle('clicked');
 
             // Play confetti for 3 seconds if task is completed.
-            // Test comment.
             if (e.target.classList.contains('clicked')) {
                 startConfetti();
                 setTimeout(function() {
